@@ -16,7 +16,7 @@ public class Main {
                 int a=inputInt("give first integer operand: ");
                 int b=inputInt("give second integer operand: ");
                 if (operation.equals("add"))
-                    System.out.println(a+b);
+                    System.out.println("answer: " + (a+b));
             }
         }
     }
